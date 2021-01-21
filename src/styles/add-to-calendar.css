@@ -1,0 +1,56 @@
+.react-add-to-calendar {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+.react-add-to-calendar__wrapper {
+  zoom: 1;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.react-add-to-calendar__button {
+  width: 263px;
+  height: 51px;
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  background: #ee8d8b;
+  border-radius: 4px;
+  padding: 10px;
+}
+.react-add-to-calendar__button--light {
+  background: #ee8d8b91;
+}
+.react-add-to-calendar__icon--right {
+  padding-left: 5px;
+}
+.react-add-to-calendar__icon--left {
+  padding-right: 5px;
+}
+.react-add-to-calendar__dropdown {
+  position: absolute;
+  top: 75px;
+  left: 1px;
+  width: 93%;
+  padding: 5px 0 5px 8px;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.15);
+  border: 1px solid #a8a8a8;
+  background-color: #fff;
+  text-align: left;
+}
+.react-add-to-calendar__dropdown ul {
+  list-style: none;
+  margin: 0;
+}
+.react-add-to-calendar__dropdown ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.react-add-to-calendar__dropdown ul li a i {
+  padding-right: 10px;
+}

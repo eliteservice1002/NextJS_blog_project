@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+}
+
+.description_style {
+    margin-bottom: 1.65em;
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: Lora;
+    font-weight: 400;
+}
+
+.title_style {
+    font-size: 26px;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    color: #4f3f3f;
+    font-family: 'Mulish';
+    font-weight: 600;
+    margin-top: 1.9em;
+    margin-bottom: 0.8em;
+}
+
+.title_continer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

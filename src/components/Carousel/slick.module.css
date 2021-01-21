@@ -1,0 +1,26 @@
+.carousel_img {
+	padding: 0.5rem;
+	height: 35rem;
+}
+
+.carousel_img {
+	padding: 0.5rem;
+}
+
+.carousel_slide_item__body {
+	bottom: -2.5rem;
+	height: 10%;
+	position: relative;
+	top: -130px;
+	text-align: center;
+}
+
+.carousel_slide_item__body h4 {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.carousel_slide_item__body p {
+	color: #ffffff;
+	font-size: 27px;
+}

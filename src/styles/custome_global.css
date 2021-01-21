@@ -1,0 +1,26 @@
+.slick-prev {
+    left: 25px !important;
+    z-index: 1;
+    width: 40px !important;
+    top: 42% !important;
+}
+
+.slick-list {
+    background-color: #fdfdfd;
+}
+
+.slick-next {
+    right: 15px !important;
+    width: 40px !important;
+    top: 42% !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 32px !important;
+}
+
+@media only screen and (max-width: 1023px) {
+    .header_nav_menu {
+        display: none;
+    }
+}

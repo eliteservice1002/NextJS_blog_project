@@ -1,0 +1,288 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ :root {
+  --color-primary: #ee8d8b;
+  --color-brownDark: #716360;
+  --color-brownMiddle: #958582;
+  --color-brownLight: #c1aeac;
+}
+
+body {
+  font-family: hthaptik, sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 200;
+  font-feature-settings: "salt";
+  color: var(--color-brownDark);
+} */
+@import url("https://fonts.googleapis.com/css?family=Spectral:100,300,300i,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&display=swap');
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+@font-face {
+  font-family: "hthaptik";
+  font-weight: 200;
+  src: url("/fonts/GTHaptikThin.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "hthaptik";
+  font-weight: 300;
+  src: url("/fonts/GTHaptikLight.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "hthaptik";
+  font-weight: 400;
+  src: url("/fonts/GTHaptikRegular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "hthaptik";
+  font-weight: 500;
+  src: url("/fonts/GTHaptikMedium.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "hthaptik";
+  font-weight: 700;
+  src: url("/fonts/GTHaptikBold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'california';
+  font-weight: 500;
+  src: url('../assets/fonts/California_Palms/CaliforniaPalms_Script_thicker.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'chronicle';
+  font-weight: 500;
+  src: url('../assets/fonts/Chronicle_Display/Chronicle_display.otf') format('otf');
+  font-display: swap;
+}
+
+.title-hero {
+  font-family: 'DM Serif Text', serif !important;
+  color: #fff;
+}
+
+.title-dm {
+  font-family: 'DM Serif Text', serif !important;
+}
+
+.faqs-body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 90%;
+}
+
+$primary: #ee8d8b;
+$brownDark: #716360;
+$brownMiddle: #958582;
+$brownLight: #c1aeac;
+​ .color {
+  &__primary {
+    color: $primary;
+  }
+  &__brownL {
+    color: $brownLight;
+  }
+  &__brownM {
+    color: $brownMiddle;
+  }
+  &__brownD {
+    color: $brownDark;
+  }
+}
+
+.font-hthaptik {
+  -moz-font-feature-settings: "salt";
+  -webkit-font-feature-settings: "salt";
+  font-feature-settings: "salt";
+}
+​ html {
+  font-family: hthaptik !important;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 200;
+  font-feature-settings: "salt";
+  color: $brownDark;
+}
+
+.font-dm {
+  font-family: 'DM Serif Text', serif !important;
+}
+
+.bg-line {
+  background-image: url("../assets/images/line-bg.png");
+}
+.bg-line-mobile {
+  background-image: url("../assets/images/bg-line-mobile.png");
+}
+@media (min-width: 720px) {
+  .bg-line-mobile {
+    background-image: none;
+  }
+}
+
+.react-tel-input .form-control{
+  width: 100% !important;
+}
+​ .div {
+  font-family: "hthaptik";
+}
+
+.bordered {
+  border: 1px solid #c1aeac;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.datedAside {background: #716360; height:1px}
+
+.DayPicker-Caption{
+  display: none !important;
+}
+.phone-form{
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  align-items: center;
+  color: #716360;
+
+  ::placeholder {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    align-items: center;
+    color: #7163609c;
+  }
+}
+
+[type="radio"] {
+  -webkit-appearance: none;
+}
+
+.react-datepicker__month-container {
+  .react-datepicker__day-name,
+  .react-datepicker__current-month {
+    color: $brownDark;
+    text-transform: capitalize;
+  }
+  .react-datepicker__day--disabled {
+    color: #ccc!important;
+  }
+  .react-datepicker__day {
+    color: $brownDark;
+    border-radius: 1rem;
+    &:hover {
+      background-color:rgba(238, 141, 139, 0.1);
+    }
+  }
+  .react-datepicker__day--selected {
+    background-color:rgba(238, 141, 139, 0.3);
+    border-radius: 1rem;
+    color: $primary;
+    &:hover {
+      background-color: $brownDark;
+      color: white;
+    }
+  }
+  .react-datepicker__week {
+    .react-datepicker__day--keyboard-selected {
+      background-color: $primary;
+      &:hover {
+        background-color: $brownDark;
+      }
+    }
+  }
+  .react-datepicker__header {
+    border-bottom: 0px;
+    background-color: transparent;
+    .react-datepicker__month-dropdown-container
+    .react-datepicker__month-select {
+      background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
+      -webkit-appearance: none; 
+      width: 80px;
+    }
+    .react-datepicker__year-dropdown-container
+    .react-datepicker__year-select {
+      background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
+      -webkit-appearance: none; 
+      width: 50px;
+    }
+  }
+    
+}
+.react-datepicker {
+  border: 0px;
+  .react-datepicker__triangle {
+    border-bottom-color: white!important;
+  }
+  padding: 1px;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+}
+.banner_mobile {
+  z-index: -1;
+}
+
+.swiper-container {
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #716360;
+    height: 60px!important;
+    width: 60px!important;
+    background-color: rgb(255, 255, 255,.8);
+    border-radius: 80%;
+  }
+  .swiper-pagination-bullet {
+    background: $primary!important;
+  }
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 23px;
+  }
+}
+.opinion {
+  .swiper-container {
+    .swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 15px!important;
+    }
+    .swiper-pagination-bullet {
+      width: 34px;
+      height: 34px;
+      &:hover {
+        opacity:1;
+      }
+      transition: all .3s ease;
+    }
+    .swiper-slide {
+      width:100%!important;
+    }
+    
+  }
+}

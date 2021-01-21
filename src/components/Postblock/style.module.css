@@ -1,0 +1,40 @@
+.text1 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #ee8d8b;
+}
+
+.text2 {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 116%;
+    color: #755b5b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.text3 {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 130%;
+    color: #666666;
+}
+
+.text4 {
+    font-size: 13px;
+    line-height: 19px;
+    color: #755b5b;
+}
+
+.div100 {
+    width: 100%;
+}
+
+.postblock_right_container {
+    padding-left: 2rem;
+}
+
+.postblock_right_container1 {
+    padding-left: 0.5rem;
+}

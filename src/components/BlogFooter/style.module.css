@@ -1,0 +1,138 @@
+.post_block_item_container {
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #eee;
+}
+
+.post_block_item_container1 {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.pagenation {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 85px;
+}
+
+.blog_home_page_right_title_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.blog_home_page_right_title_line {
+    width: 20%;
+    height: 1px;
+    background-color: #f9c2b5;
+}
+
+.blog_home_page_right_title {
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #755b5b;
+    font-family: Mulish;
+    font-weight: 500;
+}
+
+.another_block_container {
+    height: 180px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.btnstyle {
+    font-size: 11px !important;
+    letter-spacing: 2px !important;
+    line-height: 1.5 !important;
+    text-transform: uppercase !important;
+    background-color: #ffffff !important;
+    color: #755b5b !important;
+    width: 80%;
+}
+
+.footer_post_container {
+    border-top: 1px solid #f4f4f4;
+    margin-top: 40px;
+}
+
+.footer_post_top_container {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+
+.footer_post_top_title {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.footer_logo_img {
+    max-width: 120px;
+}
+
+.footer_container {
+    background-color: #856969;
+    padding: 10px 50px 40px;
+}
+
+.footer_left_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_logo_container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 50px;
+}
+
+.footer_left_txt {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer_center_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_center_txt {
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+.social_style {
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 1079px) {
+    .footer_container {
+        grid-gap: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .blo_home_page_container {
+        padding: 0 15px 0 15px;
+    }
+}

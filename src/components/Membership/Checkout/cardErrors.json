@@ -1,0 +1,21 @@
+{
+  "incorrect_number": "El número de tarjeta es incorrecto.",
+  "incomplete_number": "El número de tarjeta esta incompleto.",
+  "invalid_number": "El número de tarjeta no es un número de tarjeta válido.",
+  "incomplete_expiry": "El mes de vencimiento de la tarjeta esta incompelto.",
+  "invalid_expiry_month": "El mes de vencimiento de la tarjeta no es válido.",
+  "invalid_expiry_month_past": "El mes de vencimiento de la tarjeta esta en el pasado.",
+  "invalid_expiry_year": "El año de vencimiento de la tarjeta no es válido.",
+  "invalid_expiry_year_past": "El año de vencimiento de la tarjeta esta en el pasado.",
+  "invalid_cvc": "El código de seguridad de la tarjeta no es válido.",
+  "incomplete_cvc": "El codigo de seguridad de la tarjeta esta incompelto.",
+  "expired_card": "La tarjeta ha caducado.",
+  "incorrect_cvc": "El código de seguridad de la tarjeta es incorrecto.",
+  "incorrect_zip": "Falló la validación del código postal de la tarjeta.",
+  "card_declined": "La tarjeta fué rechazada.",
+  "missing": "El cliente al que se está cobrando no tiene tarjeta",
+  "processing_error": "Ocurrió un error procesando la tarjeta.",
+  "rate_limit":
+"Ocurrió un error debido a consultar la API demasiado rápido. Por favo, avísanos si recibes este error continuamente."
+  
+}
